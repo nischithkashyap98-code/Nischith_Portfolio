@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nischith Kashyap S — Software · DevOps · Mechanical</title>
+  <meta name="description" content="Nischith Kashyap S — Full-stack & DevOps engineer with mechanical background. Projects, resume, contact."/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="progress-bar" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="wrap header-inner">
+      <a href="#hero" class="brand">NISCHITH KASHYAP S</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#timeline" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a class="btn-outline resume" id="download-resume" href="assets/resume.pdf" download="Nischith_Kashyap_S_Resume.pdf">Get My Resume</a>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-left">
+        <h1 class="name">Nischith Kashyap S</h1>
+        <p class="role">Software Engineer · DevOps Engineer · Mechanical Innovator</p>
+        <p class="typed" id="typed">Building scalable web apps...</p>
+        <div class="cta-row">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-ghost">Hire / Contact</a>
+        </div>
+        <div class="links-mini">
+          <a href="https://github.com/nischithkashyap98-code" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://portfolionischith.netlify.app/" target="_blank" rel="noopener">Portfolio</a>
+          <a href="https://linkedin.com/in/nischith-kashyap-s-aa413a389" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <aside class="hero-right" aria-hidden="false">
+        <div class="profile-glow">
+          <img src="assets/profile.jpg" alt="Nischith Kashyap S" class="avatar">
+        </div>
+        <div class="profile-card">
+          <h3>Nischith Kashyap S</h3>
+          <p class="muted">Full-stack & DevOps • Mechanical</p>
+          <a class="btn-small" href="assets/resume.pdf" download="Nischith_Kashyap_S_Resume.pdf">Download CV</a>
+        </div>
+      </aside>
+    </div>
+
+    <a href="#about" class="scroll-down" aria-label="Scroll to about">
+      <span class="arrow"></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <h2>ABOUT</h2>
+      <p class="muted lead">Innovative and results-driven engineer across Software, DevOps, and Mechanical Engineering. I build scalable apps, automate deployment pipelines, and integrate hardware with cloud systems.</p>
+      <div class="three-cards">
+        <div class="card"> <h4>Core Focus</h4><p>Full-stack development, CI/CD automation, AWS deployments.</p></div>
+        <div class="card"> <h4>Approach</h4><p>Product-minded engineering and pragmatic automation with measurable outcomes.</p></div>
+        <div class="card"> <h4>Goal</h4><p>Deliver solutions that connect physical & digital systems in production.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <div class="wrap">
+      <h2>SKILLS</h2>
+      <div class="skills-grid">
+        <!-- Animated skill bars -->
+        <div class="skill">
+          <h4>Full Stack (MERN)</h4>
+          <div class="bar"><div class="bar-fill" data-fill="92"></div></div>
+          <p class="muted">React · Node · Express · MongoDB</p>
+        </div>
+        <div class="skill">
+          <h4>DevOps & Cloud</h4>
+          <div class="bar"><div class="bar-fill" data-fill="86"></div></div>
+          <p class="muted">Docker · Jenkins · GitHub Actions · AWS</p>
+        </div>
+        <div class="skill">
+          <h4>Mechanical Engineering</h4>
+          <div class="bar"><div class="bar-fill" data-fill="80"></div></div>
+          <p class="muted">AutoCAD · SolidWorks · MATLAB</p>
+        </div>
+        <div class="skill">
+          <h4>Scripting & Tools</h4>
+          <div class="bar"><div class="bar-fill" data-fill="78"></div></div>
+          <p class="muted">Python · Bash · Postman · Figma</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS: CAROUSEL -->
+  <section id="projects" class="section">
+    <div class="wrap">
+      <h2>PROJECTS</h2>
+      <div class="carousel-wrap">
+        <button class="carousel-btn prev" aria-label="Previous">◀</button>
+        <div class="carousel" id="carousel">
+          <!-- Each .slide is a project; replace data with your screenshots and links -->
+          <article class="slide" data-title="Contentor — eBook Platform" data-desc="MERN eBook platform with auth, payments, AWS Docker deployment." data-gh="#" data-live="#">
+            <div class="slide-media" style="background-image:url('assets/project1.png')"></div>
+            <div class="slide-body"><h3>Contentor</h3><p class="muted">MERN • AWS • Docker</p></div>
+          </article>
+
+          <article class="slide" data-title="AutoFlow — Workflow Automation" data-desc="CI/CD automation with Jenkins, Docker & React dashboard." data-gh="#" data-live="#">
+            <div class="slide-media" style="background-image:url('assets/project2.png')"></div>
+            <div class="slide-body"><h3>AutoFlow</h3><p class="muted">CI/CD • Docker • Jenkins</p></div>
+          </article>
+
+          <article class="slide" data-title="Smart Tyre Inflation System" data-desc="Embedded system for automatic tyre inflation with sensors & controller." data-gh="#" data-live="#">
+            <div class="slide-media" style="background-image:url('assets/project3.png')"></div>
+            <div class="slide-body"><h3>Smart Tyre Inflation</h3><p class="muted">Embedded • Sensors • SolidWorks</p></div>
+          </article>
+        </div>
+        <button class="carousel-btn next" aria-label="Next">▶</button>
+      </div>
+
+      <!-- modal for slides -->
+      <div id="project-modal" class="modal" aria-hidden="true">
+        <div class="modal-inner">
+          <button id="modal-close" class="modal-close" aria-label="Close">✕</button>
+          <div class="modal-main">
+            <div class="modal-media"><img id="modal-img" src="" alt=""></div>
+            <div class="modal-content">
+              <h3 id="modal-title"></h3>
+              <p id="modal-desc"></p>
+              <div class="modal-actions">
+                <a id="modal-gh" href="#" target="_blank" rel="noopener" class="btn-outline">View Code</a>
+                <a id="modal-live" href="#" target="_blank" rel="noopener" class="btn-primary">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="timeline" class="section alt">
+    <div class="wrap">
+      <h2>EXPERIENCE</h2>
+      <ol class="timeline">
+        <li><strong>Software Developer — Digitech Solutions</strong> <span class="muted">Feb 2024 – Feb 2025</span><p>Built web apps & containerized CI/CD pipelines.</p></li>
+        <li><strong>Founder — Contentor</strong> <span class="muted">Jan 2022 – Dec 2023</span><p>Built MERN eBook platform and managed AWS deployments.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="wrap">
+      <h2>CONTACT</h2>
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-grid">
+        <input type="hidden" name="form-name" value="contact" />
+        <p hidden><label>Don’t fill this: <input name="bot-field" /></label></p>
+
+        <label><span>Name</span><input name="name" required></label>
+        <label><span>Email</span><input name="email" type="email" required></label>
+        <label class="full"><span>Message</span><textarea name="message" rows="5" required></textarea></label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn-primary">Send Message</button>
+          <a class="btn-ghost" href="mailto:nischithkashyap98@gmail.com">Or email me</a>
+        </div>
+      </form>
+
+      <p class="muted">Or reach: <a href="mailto:nischithkashyap98@gmail.com">nischithkashyap98@gmail.com</a> • <a href="tel:+919880794294">+91 9880794294</a></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap"><p>© 2025 Nischith Kashyap S • Built with care</p></div>
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
