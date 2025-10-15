@@ -50,19 +50,12 @@ Delivered customized websites with SEO optimization, analytics, and cloud hostin
 
 ---
 
+---
+
 ## 🚀 How to Run Locally
 
 ```bash
-🌟 Connect with Me
 
-LinkedIn
-
-GitHub
-
-Portfolio
-
-Thank you for visiting my portfolio!
-Explore my projects and feel free to connect.
 # Clone the repo
 git clone https://github.com/nischithkashyap98-code/Nischith_Portfolio_Pro.git
 
